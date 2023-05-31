@@ -5,13 +5,12 @@ console.log('***** Function Practice *****');
 // to test it and display the result
 
 // 1. Function to return 'Hello World!'
-function hello() {
+function hello(greeting) {
   return 'Hello World!';
 }
 // Call the function to test
 console.log('Test - should say "Hello World!"', hello());
-let greeting= hello
-console.log(greeting)
+let greeting= hello('hello world')
 
 // 2. Function to return a personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
@@ -19,7 +18,7 @@ function helloName(name) {
   return 'Hello Savon'
 }
 // Remember to call the function to test
-let Introduction= helloName
+let Introduction= helloName('savon')
 console.log(Introduction)
 
 // 3. Function to add two numbers together & return the result
